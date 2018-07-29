@@ -25,7 +25,8 @@
 
 ### Инструменты разработки
 
-* **Sage** v9.0.1 - стартовая тема для wordpress. После установки обязательно обновить все пакеты в package.json, например при помощи этого [npm пакета](https://www.npmjs.com/package/npm-check-updates) и команды `ncu --loglevel verbose --packageFile package.json -u` в корне проекта
+* **[RC-wp](https://github.com/redclick-eu/RC-wp)** стартовая тема для wordpress, основанная на шаблоне [sage](https://roots.io/sage/)
+* **[RC-oc](https://github.com/redclick-eu/RC-oc)** стартовая тема для opencart
 * **Gulp** - Таск-менеджер для автоматического выполнения часто используемых задач
 * **Bower** - Пакетный менеджер
 * **SASS** - Метаязык на основе CSS, предназначенный для увеличения уровня абстракции CSS кода и упрощения файлов каскадных таблиц стилей.
@@ -34,6 +35,7 @@
 
 ### Именование коммитов 
 Что сделать(где сделать(необязательно)) + для какой сущности + подробности (необязательно)
+
 #### Правила
 Правило|
 -------------|
@@ -55,10 +57,7 @@ chore| обычное обслуживание кода
 `chore(Gruntfile.js) add watch task`
 > [Подробнее](https://habr.com/post/183646/)
 
-
-
 ## Wordpress плагины
-
 * **Advanced Custom Fields** (Multilingual / Repeater Field)
 * **All In One SEO Pack**
 * **[RC-translate](https://github.com/redclick-eu/RC-translate)**
